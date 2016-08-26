@@ -41,7 +41,8 @@ html,
 button,
 input,
 select,
-
+textarea {
+  font-family: sans-serif; }
 
 body {
   margin: 0; }
@@ -70,7 +71,7 @@ code,
 kbd,
 pre,
 samp {
-  
+  font-family: monospace, serif;
   font-size: 1em; }
 
 pre {
@@ -120,7 +121,7 @@ button,
 input,
 select,
 textarea {
-  
+  font-family: inherit;
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
@@ -255,7 +256,22 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #ccc; }
 
+@font-face {
+  font-family: "YanSong";
+  src: url("font/YanSong.ttf") format("truetype"); }
 
+@font-face {
+  font-family: "Han Songti";
+  src: local("Songti SC"), local("Songti TC"), local(STSong), local("Lisong Pro"), local(SimSun), local(PMingLiU); }
+
+@font-face {
+  font-family: "Biaodian Pro Sans GB";
+  src: local("Hiragino Sans GB"), local("Heiti SC"), local(STHeiti), local("MS Gothic"), local(SimSun);
+  unicode-range: U+FF0E; }
+
+@font-face {
+  font-family: "Han Heiti GB";
+  src: local("Hiragino Sans GB"), local("Lantinghei SC"), local("Heiti SC"), local("Microsoft Yahei"), local("Droid Sans Fallback"); }
 
 html, body {
   width: 100%;

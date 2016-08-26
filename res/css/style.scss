@@ -7,7 +7,25 @@
 
 @import 'base';
 
+@font-face {font-family: "YanSong";
+  src: url('font/YanSong.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: "Han Songti";
+  src: local("Songti SC"), local("Songti TC"), local(STSong), local("Lisong Pro"), local(SimSun), local(PMingLiU);
+}
+
+@font-face {
+  font-family: "Biaodian Pro Sans GB";
+  src: local("Hiragino Sans GB"), local("Heiti SC"), local(STHeiti), local("MS Gothic"), local(SimSun);
+  unicode-range: U+FF0E;
+}
+
+@font-face {
+  font-family: "Han Heiti GB";
+  src: local("Hiragino Sans GB"), local("Lantinghei SC"), local("Heiti SC"), local("Microsoft Yahei"), local("Droid Sans Fallback");
+}
 
 $blue: #00aeef;
 
