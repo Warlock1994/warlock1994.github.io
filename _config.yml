@@ -1,0 +1,29 @@
+BASE_PATH:
+SITE_PATH: https://xyj0922.github.io/
+
+paginate: 30 # pagination based on number of posts
+paginate_path: "page:num" #pagination generated sub path format
+encoding: utf-8
+permalink: /:categories/:title.html
+
+kramdown: 
+  input: GFM
+  syntax_highlighter: rouge
+
+
+name: 徐莹杰
+title: 徐莹杰
+
+author:
+  name: 徐莹杰
+  email: 250021030@qq.com
+  github: xyj0922
+  twitter: vnnlee zhuo
+  bio: 我在这里，高清有码！
+
+rss_path: rss.xml
+gems: [jekyll-paginate]
+
+#include:      [".htaccess"]
+exclude:      ["*.codekit", "*.lock", "Gulpfile.js", "Gemfile", "LICENSE", "node_modules"]
+keep_files:   [".git"]
