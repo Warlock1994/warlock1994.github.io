@@ -11,7 +11,7 @@ layout: default
             <h2>安卓开发</h2>
         </a>
         <ul class="stats">
-           {% include categories.html %}
+           {% for category in site.categories order:ascending %}
         </ul>
     </div>
     <div class="post-container">
