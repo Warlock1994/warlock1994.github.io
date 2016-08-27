@@ -12,6 +12,8 @@ layout: default
         </a>
         <ul class="stats">
            {% for category in site.categories order:ascending %}
+		     {{ category | first }} {{ category | last | size }}
+			 {% endfor %}
         </ul>
     </div>
     <div class="post-container">
