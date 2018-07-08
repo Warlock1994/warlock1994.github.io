@@ -1,5 +1,5 @@
 {
-  "name": "https://xyj0922.github.io/",
+  "name": "https://warlock1994.github.io/",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://xyj0922.github.io/"
+    "url": "git+https://warlock1994.github.io/"
   },
   "keywords": [
     "zhuowenli"
@@ -15,9 +15,9 @@
   "author": "zhuowenli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xyj0922/xyj0922.github.io/issues"
+    "url": "https://github.com/warlock1994/warlock1994.github.io/issues"
   },
-  "homepage": "https://github.com/xyj0922/xyj0922.github.io/",
+  "homepage": "https://github.com/warlock1994/warlock1994.github.io/",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-plumber": "^1.0.1",
