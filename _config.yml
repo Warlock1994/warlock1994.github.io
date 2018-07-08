@@ -1,5 +1,5 @@
 BASE_PATH:
-SITE_PATH: https://xyj0922.github.io/
+SITE_PATH: https://warlock1994.github.io/
 
 paginate: 30 # pagination based on number of posts
 paginate_path: "page:num" #pagination generated sub path format
